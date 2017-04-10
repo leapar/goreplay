@@ -76,12 +76,9 @@ Leonid Bugaev, [@buger](https://twitter.com/buger), https://leonsbox.com
 ##windows
 
 1.下载https://www.winpcap.org/archive/4.1beta5_WpdPack.zip
-
 2.修改C:\Users\wang\Desktop\winpcap\wpcap\PRJ\WPCAP.DEF追加
-
 ```
 	pcap_free_datalinks
   pcap_setdirection
 ```
-
 3.执行d:\mingw64\bin\dlltool.exe --input-def C:\Users\wang\Desktop\winpcap\wpcap\PRJ\WPCAP.DEF --output-lib wpcap.lib
